@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainMenuActivity"
+            android:name="com.vli.activities.MainMenuActivity"
             android:label="@string/app_name" 
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
             <intent-filter>
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity 
-        	android:name="com.vli.vlwords.GameActivity">
+        	android:name="com.vli.activities.GameActivity">
         	
         </activity>
     </application>
